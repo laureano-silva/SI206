@@ -1,0 +1,24 @@
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+.apt_generated/
+.factorypath
+
+# IntelliJ (por si volvés)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compilados sueltos
+*.class
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
