@@ -1,4 +1,4 @@
-Ejercicio 3: Inversores
+## Ejercicio 3: Inversores
 
 Estamos desarrollando una aplicación móvil para que un inversor pueda conocer el estado de sus inversiones. El sistema permite manejar dos tipos de inversiones: Inversión en acciones e inversión en plazo fijo. En todo momento, se desea poder conocer el valor actual de cada inversión y de las inversiones realizadas por el inversor.
  
@@ -10,22 +10,22 @@ Por último, el valor de inversión actual de un inversor es la suma de los valo
 
 ## Conceptos candidatos
 
-| Tipo 	| Nombre	|
+| Tipo  | Nombre    |
 |-|-|
-|	C	|	Inversor	|
-|	C	|	Inversión	|
-|	C	|	Inversión en acciones	|
-|	C	|	Inversión en plazo fijo	|
-|	C	|	~~Mercado de valores~~ → descartado (no participa en el modelo)	|
-|	C	|	~~Cartera de inversiones~~ → descartado (se modela como asociación)	|
-|	A	|	nombre (de la acción)	|
-|	A	|	cantidad (de acciones)	|
-|	A	|	valorUnitario	|
-|	A	|	fechaConstitucion	|
-|	A	|	montoDepositado	|
-|	A	|	porcentajeInteres	|
-|	A	|	~~valorActual~~ → descartado (atributo calculado, no almacenado)	|
-|	A	|	~~valorActualInversor~~ → descartado (calculado como suma de inversiones)	|
+|   C   |   Inversor    |
+|   C   |   Inversión   |
+|   C   |   Inversión en acciones   |
+|   C   |   Inversión en plazo fijo |
+|   C   |   ~~Mercado de valores~~ → descartado (no participa en el modelo) |
+|   C   |   ~~Cartera de inversiones~~ → descartado (se modela como asociación) |
+|   A   |   nombre (de la acción)   |
+|   A   |   cantidad (de acciones)  |
+|   A   |   valorUnitario   |
+|   A   |   fechaConstitucion   |
+|   A   |   montoDepositado |
+|   A   |   porcentajeInteres   |
+|   A   |   ~~valorActual~~ → descartado (atributo calculado, no almacenado)    |
+|   A   |   ~~valorActualInversor~~ → descartado (calculado como suma de inversiones)   |
 
 ## Diagrama UML
 

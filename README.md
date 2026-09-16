@@ -9,3 +9,4 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej01](ej01/) | WallPost	|
 | [ej02](ej02/) | Balanza Electrónica	|
 | [ej03](ej03/) | Inversores - Modelo conceptual	|
+| [ej04](ej04/) | Plataforma de videos musicales - Modelo conceptual	|
