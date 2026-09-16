@@ -41,8 +41,10 @@ Agregue las asociaciones entre conceptos, indicando la navegabilidad, cardinalid
 
 Asociaciones: 
 	Persona 1 -- * Compra
-	Persona 1 -- * Video
-	Persona 1 -- * Comentario
+	
+    Persona 1 -- * Video
+	
+    Persona 1 -- * Comentario
 
 	Compra * -- 1 Video
 
