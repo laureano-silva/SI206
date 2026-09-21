@@ -11,5 +11,6 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej03](ej03/) | Inversores - Modelo conceptual	|
 | [ej04](ej04/) | Plataforma de videos musicales - Modelo conceptual	|
 | [ej05](ej05/) | Servicio de recolección de residuos - Modelo conceptual	|
-| [ej05](ej06/) | Presupuesto	|
+| [ej06](ej06/) | Presupuesto	|
 | [ej07](ej07/) | Balanza mejorada	|
+| [ej07](ej08/) | Figuras y cuerpos	|
