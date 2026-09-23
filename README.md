@@ -13,4 +13,5 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej05](ej05/) | Servicio de recolección de residuos - Modelo conceptual	|
 | [ej06](ej06/) | Presupuesto	|
 | [ej07](ej07/) | Balanza mejorada	|
-| [ej07](ej08/) | Figuras y cuerpos	|
+| [ej08](ej08/) | Figuras y cuerpos	|
+| [ej09](ej09/) | Genealogía salvaje	|
