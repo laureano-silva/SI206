@@ -15,3 +15,5 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej07](ej07/) | Balanza mejorada	|
 | [ej08](ej08/) | Figuras y cuerpos	|
 | [ej09](ej09/) | Genealogía salvaje	|
+| [ej10](ej10/) | Red de alumbrado	|
+| [ej11](ej11/) | Method lookup con Empleados	|
