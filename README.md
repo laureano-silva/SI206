@@ -17,3 +17,5 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej09](ej09/) | Genealogía salvaje	|
 | [ej10](ej10/) | Red de alumbrado	|
 | [ej11](ej11/) | Method lookup con Empleados	|
+| [ej12](ej12/) | Cuenta con ganchos	|
+| [ej13](ej13/) | Tipos y binding dinámico	|
