@@ -55,5 +55,6 @@ o1.getNombre();
 1. hola soy A
 
 **2. hola soy C saludos** ← ```this``` siempre es el objeto que recibe el mensaje, así se use en un método de la superclase.
+
 3. hola soy C
 4. hola soy A saludos
