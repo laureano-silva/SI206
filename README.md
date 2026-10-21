@@ -20,3 +20,4 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej12](ej12/) | Cuenta con ganchos	|
 | [ej13](ej13/) | Tipos y binding dinámico	|
 | [ej14](ej14/) | Job Scheduler	|
+| [ej15](ej15/) | ¡A implementar Inversores!	|
