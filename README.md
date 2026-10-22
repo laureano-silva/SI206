@@ -21,3 +21,4 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej13](ej13/) | Tipos y binding dinámico	|
 | [ej14](ej14/) | Job Scheduler	|
 | [ej15](ej15/) | ¡A implementar Inversores!	|
+| [ej16](ej16/) | Volumen y superficie de sólidos	|
