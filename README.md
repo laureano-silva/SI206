@@ -23,4 +23,5 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej15](ej15/) | ¡A implementar Inversores!	|
 | [ej16](ej16/) | Volumen y superficie de sólidos	|
 | [ej17](ej17/) | Cliente de Correo	|
-| [ej17](ej18/) | Intervalo de tiempo	|
+| [ej18](ej18/) | Intervalo de tiempo	|
+| [ej19](ej19/) | Intervalo de tiempo (¡otra vez!)	|
