@@ -25,3 +25,4 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej17](ej17/) | Cliente de Correo	|
 | [ej18](ej18/) | Intervalo de tiempo	|
 | [ej19](ej19/) | Intervalo de tiempo (¡otra vez!)	|
+| [ej22](ej22/) | Alquiler de propiedades	|
