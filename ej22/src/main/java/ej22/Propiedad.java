@@ -2,6 +2,7 @@ package ej22;
 
 import DateLapse.DateLapse;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Propiedad {
@@ -9,6 +10,13 @@ public class Propiedad {
     private String direccion;
     private double precioPorNoche;
     private List<Reserva> reservas;
+
+    public Propiedad(String nombre, String direccion, double precioPorNoche){
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.precioPorNoche = precioPorNoche;
+        reservas = new ArrayList<>();
+    }
 
     public boolean estaDisponible(DateLapse periodo){
         return this.reservas.stream()

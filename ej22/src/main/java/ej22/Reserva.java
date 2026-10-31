@@ -12,20 +12,28 @@ public class Reserva {
         this.periodo = periodo;
     }
 
+    public Propiedad getPropiedad() {
+        return propiedad;
+    }
+
+    public DateLapse getPeriodo() {
+        return periodo;
+    }
+
     public double calcularPrecio(){
         return this.periodo.sizeInDays() * this.propiedad.getPrecioPorNoche();
     }
 
-    public boolean estaEnCurso(){
-        return this.periodo.includesDate(LocalDate.now());
+    public boolean estaEnCurso(LocalDate fecha){
+        return this.periodo.includesDate(fecha);
     }
 
     public boolean seSuperponeCon(DateLapse periodo){
         return this.periodo.overlaps(periodo);
     }
 
-    public boolean cancelar(){
-        if (estaEnCurso()){return false;}
+    public boolean cancelar(LocalDate fecha){
+        if (estaEnCurso(fecha)){return false;}
         this.propiedad.borrarReserva(this);
         return true;
     }

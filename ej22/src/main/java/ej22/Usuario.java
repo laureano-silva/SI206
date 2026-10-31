@@ -2,6 +2,8 @@ package ej22;
 
 import DateLapse.DateLapse;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Usuario {
@@ -10,6 +12,18 @@ public class Usuario {
     private String dni;
     private List<Reserva> reservas;
     private List<Propiedad> propiedades;
+
+    public Usuario(String nombre, String direccion, String dni) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.dni = dni;
+        this.reservas = new ArrayList<>();
+        this.propiedades = new ArrayList<>();
+    }
+
+    public List<Reserva> getReservas(){
+        return List.copyOf(this.reservas);
+    }
 
     public double calcularRetribucion(DateLapse periodo){
         return this.propiedades.stream()
@@ -24,8 +38,8 @@ public class Usuario {
         return reserva;
     }
 
-    public void cancelarReserva(Reserva reserva){
-        if (reserva.cancelar()){
+    public void cancelarReserva(Reserva reserva, LocalDate fecha){
+        if (reserva.cancelar(fecha)){
             this.reservas.remove(reserva);
         }
     }

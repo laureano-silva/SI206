@@ -112,6 +112,7 @@ classDiagram
         + calcularRetribucion(DateLapse periodo) double
         + crearReserva(Propiedad propiedad, DateLapse periodo) Reserva
         + cancelarReserva(Reserva reserva) boolean
+        + getReservas() List~Reserva~
     }
     class Propiedad {
         direccion : String
