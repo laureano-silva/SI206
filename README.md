@@ -26,5 +26,6 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej18](ej18/) | Intervalo de tiempo	|
 | [ej19](ej19/) | Intervalo de tiempo (¡otra vez!)	|
 | [ej22](ej22/) | Alquiler de propiedades	|
+| [ej23](ej23/) | Alquiler de propiedades	|
 | [ej33](ej33/) | TipadOOs	|
-| [ej36](ej36/) | Comparando dos diseños	|
+| [ej36](ej36/) | Políticas de cancelación	|
