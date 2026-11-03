@@ -1,19 +1,144 @@
-## Ejercicio 14: Job Scheduler
-El JobScheduler es un objeto cuya responsabilidad es determinar qué trabajo debe resolverse a continuación. El siguiente diseño ayuda a entender cómo funciona la implementación actual del JobScheduler.
+## Ejercicio 33. TipadOOs
 
-![imagen.jpg](imagen.jpg)
+```mermaid
+classDiagram
+    class A {
+        <<interface>>
+        +mensajeInterface()
+    }
+    class B {
+        <<abstract>>
+        +mensajeAbstracto()*
+    }
+    class C {
+        +mensajeAbstracto()
+        +mensajeInterface()
+    }
+    class D {
+        +mensajeAbstracto()
+        +mensajeParticular()
+    }
+    class E {
+        +mensajeInterface()
+    }
 
-- El mensaje schedule(job: JobDescription) recibe un job (trabajo) y lo agrega al final de la colección de trabajos pendientes.
-- El mensaje next() determina cuál es el siguiente trabajo de la colección que debe ser atendido, lo retorna, y lo quita de la colección.
+    A <|.. C
+    B <|-- C
+    B <|-- D
+    D <|-- E
+    A <|.. E
+```
 
-En la implementación actual del método next(), el JobScheduler utiliza el valor de la variable policy (política) para determinar cómo elegir el siguiente trabajo.
+### Tarea: Dado el diagrama de clases UML proporcionado, complete todos los bloques de código reemplazando los signos de interrogación (???) con los tipos y métodos correctos. Escriba todas las combinaciones válidas posibles.
 
-Dicha implementación presenta dos serios problemas de diseño:
-- Secuencia de ifs (o sentencia switch/case) para implementar alternativas de un mismo comportamiento.
-- Código duplicado.
+### 1)
+```java
+A objeto = new ???();
+objeto.???();
+```
 
-### Tareas:
-- Analice el código existente
-- Utilice el código y los tests provistos por la cátedra y aplique lo aprendido (en particular en relación a herencia y polimorfismo) para eliminar los problemas mencionados. Siéntase libre de agregar nuevas clases como considere necesario. También puede cambiar la forma en la que los objetos se crean e inicializan. Asuma que una vez elegida una política para un scheduler no puede cambiarse.
-- Verifique su solución con las pruebas automatizadas
-- Sus cambios probablemente hagan que los tests dejen de funcionar. Corríjalos y mejórelos como sea necesario.
+Respuesta:
+
+```java
+A objeto = new C();
+objeto.mensajeInterface();
+```
+```java
+A objeto = new E();
+objeto.mensajeInterface();
+```
+
+### 2)
+```java
+B objeto = new ???();
+objeto.???();
+```
+
+Respuesta:
+
+```java
+B objeto = new C();
+objeto.mensajeAbstracto();
+```
+
+```java
+B objeto = new D();
+objeto.mensajeAbstracto();
+```
+
+```java
+B objeto = new E();
+objeto.mensajeAbstracto();
+```
+
+
+### 3)
+```java
+D objeto = new ???();
+objeto.???();
+```
+
+Respuesta:
+
+```java
+D objeto = new D();
+objeto.mensajeAbstracto();
+objeto.mensajeParticular();
+```
+
+```java
+D objeto = new E();
+objeto.mensajeAbstracto();
+objeto.mensajeParticular();
+```
+
+### 4)
+```java
+C objeto = new C();
+objeto.???();
+```
+
+Respuesta:
+
+```java
+C objeto = new C();
+objeto.mensajeAbstracto();
+objeto.mensajeInterface();
+```
+
+### 5)
+```java
+??? objeto = new C();
+objeto.mensajeAbstracto();
+```
+
+Respuesta:
+
+```java
+C objeto = new C();
+objeto.mensajeAbstracto();
+```
+
+```java
+B objeto = new C();
+objeto.mensajeAbstracto();
+```
+
+### 6)
+```java
+??? objeto = new C();
+objeto.mensajeInterface();
+```
+
+Respuesta:
+
+```java
+C objeto = new C();
+objeto.mensajeInterface();
+```
+
+
+```java
+A objeto = new C();
+objeto.mensajeInterface();
+```
