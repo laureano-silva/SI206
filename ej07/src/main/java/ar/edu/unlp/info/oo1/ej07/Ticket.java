@@ -1,6 +1,7 @@
 package ar.edu.unlp.info.oo1.ej07;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Ticket {
 	LocalDate fecha;
@@ -11,7 +12,9 @@ public class Ticket {
 	
 	public Ticket(LocalDate fecha, List<Producto> productos){
 		this.fecha = fecha;
-		this.productos = productos;
+		this.productos = productos.stream()
+				.map(Producto::copiar)
+				.collect(Collectors.toList());
 	}
 
 	public Double impuesto() {

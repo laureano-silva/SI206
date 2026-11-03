@@ -14,7 +14,7 @@ public class Balanza {
 	}
 
 	public Ticket emitirTicket(){
-        return new Ticket(LocalDate.now(), this.productos);
+        return new Ticket(LocalDate.now(), new ArrayList<>(this.productos));
 	}
 
 	public void agregarProducto(Producto producto){
@@ -48,7 +48,6 @@ public class Balanza {
 	}
 
 	public List<Producto> getProductos(){
-		return productos;
+		return new ArrayList<>(this.productos);
 	}
-
 }

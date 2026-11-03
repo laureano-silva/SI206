@@ -24,4 +24,5 @@ Con esta nueva funcionalidad, podemos enriquecer al Ticket, haciendo que él tam
 
 ### Tarea 3
 Después de hacer estos cambios, ¿siguen pasando los tests? ¿Está bien que sea así?
+
 - Siguen pasando porque los mensajes que Balanza, Producto y Ticket comprenden no cambiaron.
