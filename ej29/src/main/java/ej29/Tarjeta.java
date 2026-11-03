@@ -23,7 +23,7 @@ public class Tarjeta implements MedioDePago{
     }
 
     public void pagar(double monto){
-        this.saldo =- monto;
+        this.saldo -= monto;
     }
 
 }

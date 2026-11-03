@@ -8,7 +8,7 @@ public class SUBE {
     }
 
     public void pagar(double monto){
-        this.saldo =- monto;
+        this.saldo -= monto;
     }
 
     public boolean recargar(double monto, MedioDePago medioDePago){
@@ -16,7 +16,7 @@ public class SUBE {
             return false;
         }
         medioDePago.pagar(monto);
-        this.saldo =+ monto;
+        this.saldo += monto;
         return true;
     }
 }
