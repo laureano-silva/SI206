@@ -9,7 +9,7 @@ public abstract class Orden {
     private String domicilio;
     private List<Producto> productos;
 
-    public Orden(LocalDate fecha, String domicilio){
+    protected Orden(LocalDate fecha, String domicilio){
         this.fecha = fecha;
         this.domicilio = domicilio;
         this.productos = new ArrayList<>();

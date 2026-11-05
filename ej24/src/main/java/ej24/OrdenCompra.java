@@ -15,6 +15,9 @@ public class OrdenCompra extends Orden{
     }
 
     protected double calcularCostoSinDescuento(){
+        if (super.cantidadProductos() == 0){
+            return 0;
+        }
         return super.calcularCostoProductos() + this.precioEnvio;
     }
 }
