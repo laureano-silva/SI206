@@ -27,7 +27,9 @@ Resoluciones del cuadernillo de actividades 2026.
 | [ej19](ej19/) | Intervalo de tiempo (¡otra vez!)	|
 | [ej22](ej22/) | Alquiler de propiedades	|
 | [ej23](ej23/) | Políticas de cancelación 	|
+| [ej24](ej24/) | GreenHOOme	|
 | [ej25](ej25/) | Bag	|
 | [ej29](ej29/) | Interfaces como tipos — Recarga de SUBE	|
 | [ej33](ej33/) | TipadOOs	|
+| [ej35](ej35/) | Servicios turísticos	|
 | [ej36](ej36/) | Comparando dos diseños	|
